@@ -1,14 +1,16 @@
-.container {
+body {
     display: flex;
-   
-    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    
     flex-direction: column;
 }
 .top{
     height: 500px;
     flex: 1;
-    
-    
+    margin: 0px;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -97,7 +99,7 @@ img{
     bottom: 80px;
     border-radius: 12px;
 }
-button{
+.button1{
     color: white;
     background-color: #3882F6;
     font-size: 18px;
@@ -117,12 +119,212 @@ button{
 .middle{
     height: 500px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
     
-    border: 5px solid red;
+    
+}
+.middle1{
+    flex: 1;
+    margin: 5px;
+    
+}
+.random{
+    font-size: 46px;
+    color: #1F2937;
+    position: relative;
+    left: 640px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.middle2{
+    flex: 3;
+    
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+.middle21{
+    flex: 1;
+    width: 25%;
+    
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.middle211{
+    flex: 3;
+    height: 230px;
+    border: 3px solid rgb(13, 0, 255);
+    border-radius: 12px;
+    margin: 5px;
+
+}
+.middle212{
+    flex: 1;
+    
+    margin: 5px;
+
+}
+
+.middle22{
+    flex: 1;
+    width: 25%;
+    
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+}
+.substext{
+    font-size: 18px;
+    color: #1F2937;
+    position: relative;
+    bottom: 25px; left: 20px;
+}
+
+
+.middle221{
+    flex: 3;
+    height: 230px;
+    border: 3px solid rgb(13, 0, 255);
+    border-radius: 12px;
+    margin: 5px;
+
+}
+.middle222{
+    flex: 1;
+    
+    
+    
+    margin: 5px;
+
+}
+.middle23{
+    flex: 1;
+    width: 25%;
+    
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+}
+.middle231{
+    flex: 3;
+    height: 230px;
+    border: 3px solid rgb(13, 0, 255);
+    border-radius: 12px;
+    margin: 5px;
+
+}
+.middle232{
+    flex: 1;
+    
+    
+    margin: 5px;
+
+}
+.middle24{
+    flex: 1;
+    width: 25%;
+    
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+}
+.middle241{
+    flex: 3;
+    height: 230px;
+    border: 3px solid rgb(13, 0, 255);
+    border-radius: 12px;
+    margin: 5px;
+
+}
+.middle242{
+    flex: 1;
+    
+    
+    margin: 5px;
+
 }
 .bottom{
     height: 500px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    
+} 
+.bottom1{
+    flex: 2;
+    height: 300px;
+    display: flex;
+    background-color:#e5e7eb ;
+    flex-direction: column;
+}
+.bottom11{
+    flex: 2;
+    margin-left: 550px;
+    margin-right: 550px;
+    
+
+}
+.quote{
+    position: relative;
+    top: 30px;left: 15px;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+.reference{
+    position: relative;
+    left: 1100px;
+    font-size: 20px;
+}
+.bottom12{
     flex: 1;
     
-    border: 5px solid red;
-} 
+    
+}
+.bottom2{
+    flex: 1;
+    height: 200px;
+    
+    display: flex;
+}
+.bottom22{
+    flex: 1;
+    margin: 30px;
+    margin-left: 360px;
+    margin-right: 360px;
+    
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+.call{
+    font-size: 35px;
+    color:white;
+    position: relative;
+    left: 80px;
+}
+.call2{
+    color: white;
+    font-size: 16px;
+    position: relative;
+    left: 80px;
+}
+.button2{
+    color: white;
+    background-color: #3882F6;
+    font-size: 23px;
+    padding: 15px;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 800px;bottom: 70px;
+    border-color: white;
+}
+
